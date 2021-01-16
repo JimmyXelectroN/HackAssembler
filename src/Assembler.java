@@ -89,7 +89,7 @@ public class Assembler {
 			jump.put("JMP", "111");
 			
 		} catch (NullPointerException e) {
-			System.out.println ("Please select a file to be translated");
+			System.out.println ("Please select a file to be assembled");
 		}
 		
 	}
